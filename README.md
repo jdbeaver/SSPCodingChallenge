@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Project was updated to use Angular 8.2.14. JSON data is displayed using an Angular Material table. To run project please clone repository and ensure that you have the angular cli install. Move to SSPSolution and type ng serve. Open browser and move to http://localhost:4200
 
 Relevant code can be found at:
-[sspgeoinfo.component.ts](src/images/sspgeoinfo/sspgeoinfo.component.ts)
+
+[sspgeoinfo.component.ts](src/app/sspgeoinfo/sspgeoinfo.component.ts)
 
 
 ## Development server
