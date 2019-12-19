@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { GeoInfoService } from '../services/geoinfoservice'
+import { GeoInfo } from '../models/geoinfo'
+
+
+
 
 @Component({
   selector: 'app-sspgeoinfo',
@@ -7,9 +12,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SspgeoinfoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private geoinfoservice: GeoInfoService) { }
 
   ngOnInit() {
+  }
+
+  getGeoInfo() {
+    this.geoinfoservice.getGeoInfo()
+      .subscribe((res) => {
+        console.log(res);
+      },
+        error => {
+        });
   }
 
 }
