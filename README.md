@@ -7,8 +7,11 @@ Project was updated to use Angular 8.2.14. JSON data is displayed using an Angul
 Relevant code can be found at:
 
 [sspgeoinfo.component.ts](src/app/sspgeoinfo/sspgeoinfo.component.ts)
+
 [sspgeoinfo.component.html](src/app/sspgeoinfo/sspgeoinfo.component.html)
+
 [geoinfoservice.ts](src/app/services/geoinfoservice.ts)
+
 [geoinfo.ts](src/app/models/sspgeoinfo.component.ts)
 
 
