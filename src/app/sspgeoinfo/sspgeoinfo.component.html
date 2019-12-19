@@ -4,7 +4,7 @@
 <div *ngIf="serviceError">
     <h2 class="serviceerror">{{errordescription}}</h2>
 </div>
-<div >
+<div *ngIf="dataAvailable">
     <div class="desc">
         <b>Description:</b> {{description}}
     </div>
