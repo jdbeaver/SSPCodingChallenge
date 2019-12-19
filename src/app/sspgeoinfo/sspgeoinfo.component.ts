@@ -35,6 +35,7 @@ export class SspgeoinfoComponent implements OnInit {
         this.dataSource.data = res.FeatureData;
         this.dataAvailable = true;
         this.serviceError = false;
+        this.description = res.Description;
       },
         error => {
           this.dataAvailable = false;
