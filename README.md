@@ -12,7 +12,7 @@ Relevant code can be found at:
 
 [geoinfoservice.ts](src/app/services/geoinfoservice.ts)
 
-[geoinfo.ts](src/app/models/sspgeoinfo.component.ts)
+[geoinfo.ts](src/app/models/geoinfo.ts)
 
 
 ## Development server
