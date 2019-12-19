@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule } from '@angular/material/button'
+import { MatTableModule } from '@angular/material/table'
 
 
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { GeoInfoService } from './services/geoinfoservice'
     RouterModule,
     HttpClientModule,
     MatButtonModule,
+    MatTableModule,
     RouterModule.forRoot([
       { path: '', component: SspgeoinfoComponent },
     ])
